@@ -1,0 +1,14 @@
+tmp*
+.venv
+.DS_Store
+__MACOSX
+__pycache__
+.vscode
+
+# Local model outputs
+results/
+# Decrypted copies of the benchmark must not be committed
+data/
+# Local secrets and caches
+.env
+.hf/

@@ -1,0 +1,11 @@
+# Direct dependencies only; transitive ones are left to pip.
+# The paper's evaluation ran on Python 3.13 with SymPy 1.14.0 (Appendix E.2).
+# Keep both unchanged when comparing against the reported numbers.
+datasets==5.0.1
+pandas==3.0.1
+cryptography==50.0.1
+zstandard==0.25.0
+sympy==1.14.0
+tqdm==4.67.3
+langchain-core==1.2.17
+langchain-openai==1.1.10
